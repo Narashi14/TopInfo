@@ -1,1 +1,1 @@
-# topinfo a class project
+# topinfo is a class project
