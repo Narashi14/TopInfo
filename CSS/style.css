@@ -1,0 +1,198 @@
+body{
+    background-color:powderblue;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+h3, legend{
+    color:#516e78;
+    font-size: xx-large;
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+}
+img{
+    display: block;
+    margin: auto;
+}
+mark{
+    background-color: cadetblue;
+}
+span{
+    color:red;
+    font-style: italic;
+}
+strong{
+    color: limegreen;
+}
+ul{
+    list-style-image: url("/Images/f.png");
+}
+ol{
+    list-style-type: upper-roman;
+}
+table, caption, tr, th, td{
+    border: 2px solid cadetblue;
+    border-collapse: collapse;
+    text-align: center;
+}
+td:hover{
+    background-color: powderblue;
+}
+table{
+    margin: auto;
+    background-color:#a2d3de;
+    color: #516e78;
+}
+caption{
+    font-size: large;
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: cursive;
+}
+.IMGTAB{
+    width: 120px;
+    height: 90px;
+    transition-property: all;
+    transition-duration: 1.2s;
+}
+.IMGTAB:hover{
+    transform: scale(1.5) rotate(360deg);
+}
+div{
+    text-align: center;
+}
+audio, video{
+    mix-blend-mode:darken;
+}
+hr{
+    border-style:dashed;
+    border-color: #516e78;
+    border-width: 4px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+input{
+    color: azure;
+    background-color: cadetblue;
+    border-color: #516e78;
+}
+.ZoomOnFocus{
+    transition-property: all;
+    transition-duration: 1.2s;
+    width: 140px;
+}
+.ZoomOnFocus:focus{
+    width: 220px;
+}
+fieldset{
+    border-color:#516e78;
+}
+.spacing{
+    display: inline-block;
+    width: 120px;
+}
+.flexible{
+    display: flex;
+}
+nav{
+    border-radius: 1%;
+    background-color: #516e78;
+    width: 15%;
+}
+section{
+    height: 600px;
+    width: 85%;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+    border-color:cadetblue;
+}
+nav ul{
+    padding: 0;
+}
+nav a button{
+    border-radius: 10%;
+    background-color:cadetblue;
+    width: 80%;
+    height: 80px;
+    color: aliceblue;
+    border-color:steelblue;
+    border-width: 2px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size:100%;
+    font-family: fantasy;
+}
+button:hover{
+    cursor: pointer;
+    filter:brightness(80%);
+    transform: scale(95%);
+}
+button{
+    color: aliceblue;
+    background-color: cadetblue;
+    border-radius: 5%;
+    width: auto;
+    height: 40px;
+    margin-top: 14px;
+}
+header h1{
+    text-shadow: -3px -2px cadetblue;
+    background-color: #516e78;
+}
+#div1{
+    width: 20%;
+    height: 100%;
+}
+#div2{
+    width: 50%;
+    height: 800px;
+}
+#div3{
+    width: 30%;
+    height: 420px;
+}
+p{
+    text-align: left;
+}
+#ti{
+    transition-property: font-size;
+    transition-duration: 3s ;
+}
+#ti:hover{
+    font-size: 52px;
+}
+#acc{
+    transform: skew(0, 10deg);
+}
+#prod{
+    transform:translate(-310px,20px);
+}
+#t3{
+    transition-property: all;
+    transition-duration: 1.2s ;
+}
+#t3:hover{
+    transform:translateX(120px);
+    color: #516e78;
+}
+#t4{
+    transition-property: all;
+    transition-duration: 1.5s ;
+}
+#t4:hover{
+    transform: rotate(-1080deg);
+}
+.kys{
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+.kys:hover, .kys:focus{
+    box-shadow: 3px 4px #516e78;
+}
